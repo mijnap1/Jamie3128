@@ -1,18 +1,12 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("icomoon.eot?srf3rx");
+  src: url("icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("icomoon.ttf?srf3rx") format("truetype"), url("icomoon.woff?srf3rx") format("woff"), url("icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Nunito Sans", italic;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -36,7 +30,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Nunito-Sans", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -50,7 +44,7 @@ figure {
     margin: 20px auto 0px auto;
     color: #b3b3b3;
     font-style: italic;
-    font-family: "Quicksand", Arial, sans-serif; }
+    font-family: "Nunito-Sans", Arial, sans-serif; }
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
@@ -405,17 +399,16 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 30px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
-  line-height: 1.8;
   position: relative; }
   .colorlib-heading span {
     display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-heading {
-      margin-bottom: 3em; } }
+      margin-bottom: 1em; } }
 
 .heading-meta {
   margin-bottom: 15px;
