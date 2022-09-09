@@ -704,26 +704,6 @@
 
 	<script type="text/javascript">
 
-        function createData() { 
-        var sendData = $('#gform').serialize(); 
-        return sendData;
-	     }
-	     function mailSend(){
-	      $.ajax({
-	         type : "POST",
-	         url : "https://script.google.com/macros/s/AKfycbz-frwBTGvIeei6eC125WczGVfQwFRHrCiw5veAUA/exec",
-	         data : createData(),
-	         datatype:"json",
-	         success : function(data, status, xhr){
-	            var input = confirm('연락주셔서 영광입니다. 24시간 이내에는 꼭 회신드리도록 하겠습니다! :)');
-	         },
-	         error : function(jqXHR, textStatus, errorThrown){
-	         	console.log("error")
-	            //Mail Problems :C
-	         }
-	      });  
-	     }
-
 	 //    $("a").bind("click", function(e) {
 		//     e.preventDefault();
 		//     var id = $(this).data("section");
